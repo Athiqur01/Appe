@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>App Landing</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link href="https://cdn.jsdelivr.net/npm/daisyui@4.6.0/dist/full.min.css" rel="stylesheet" type="text/css" />
+    <script src="https://cdn.tailwindcss.com"></script>
+    
+
+    <script>
+        tailwind.config = {
+          theme: {
+            extend: {
+              colors: {
+                clifford: '#da373d',
+                'primary-color': '#E76F51',
+              }
+            }
+          }
+        }
+      </script>
+
+</head>
+
+<body>
+    <header>
+        <nav class="bg-[#0E1133] h-14 ">
+          <div class=" flex mx-auto pt-3 lg:pt-2 justify-between lg:justify-center max-w-6xl items-center">
+            <div class="">
+              <img src="assets/logo-3.png" alt="" class="pr-6">
+  
+            </div>
+            <div class="flex lg:hidden">
+              
+              <img src="assets/more.png" alt="" class="h-7 w-7">
+            </div>
+            
+            
+            <div class="text-white   flex-1 space-x-6 hidden lg:flex" >
+              <a href="" class="hover:bg-red-300">Home</a>
+              <a href="">About</a>
+              <a href="">Service</a>
+              <a href="">Blog</a>
+              <a href="">Contact</a>
+            </div>
+            <div class="hidden lg:flex space-x-6 items-center justify-center ">
+              <button class="text-white ">Login</button>
+              <button class="text-white rounded-lg bg-[#EF4444] h-10 w-24 hover:bg-transparent border-2 border-red-600 duration-150">Get Started</button>
+            </div>
+
+          </div>
+          
+
+        </nav>
+    </header>
+
+    <main >
+      <section class="bg-[#12174E] h-[20rem]">
+        <div class="max-w-6xl mx-auto flex justify-center flex-col items-center">
+          <div class=" py-9 ">
+            <div>
+              <h2 class="text-white text-4xl text-center">Creative Way to <br>Show your <span class="text-[#EF4444]">App</span></h2>
+  
+              <p class="text-white text-center">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Excepturi eaque iste adipisci.</p>
+  
+           </div>
+           <div class="flex justify-center space-x-3">
+            <button class="text-white ">Get a Quote</button>
+            <img src="assets/play-button.png" alt="">
+            
+           </div>
+          
+  
+          </div>
+            
+        </div>
+        
+      </section>
+      
+      <div class="flex justify-center mx-auto translate-y-[-4rem]"><img src="assets/hero-thumb-4.png" alt=""></div>
+
+      <section class="max-w-6xl mx-auto">
+        <div class="flex justify-center flex-col items-center">
+          <h4 class="text-center text-3xl">What you can do</h4>
+          <p class="text-center text-base opacity-65 w-80">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Nostrum facere fuga, facilis vitae provident ad?</p>
+        </div>
+        <div class="grid  md:grid-cols-2 lg:grid-cols-4 gap-4">
+            <div class=" flex flex-col justify-center items-center p-6 shadow-md">
+              <div class="w-10 h-10 rounded-full flex justify-center items-center bg-lime-500"><img src="assets/play-store.png " alt=""></div>
+              
+              <h4 class="font-semibold text-center">Easy to Use</h4>
+              <p class="text-center">Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+              <button class="font-semibold">Read moor</button>
+            </div>
+            <div class=" flex flex-col justify-center items-center p-6 shadow-md">
+              <div class="w-10 h-10 rounded-full flex justify-center items-center bg-yellow-200"><img src="assets/play-store.png " alt=""></div>
+              
+              <h4 class="font-semibold text-center">Easy to Use</h4>
+              <p class="text-center">Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+              <button class="font-semibold">Read moor</button>
+            </div>
+            <div class=" flex flex-col justify-center items-center p-6 shadow-md">
+              <div class="w-10 h-10 rounded-full flex justify-center items-center bg-blue-500"><img src="assets/play-store.png " alt=""></div>
+              
+              <h4 class="font-semibold text-center">Easy to Use</h4>
+              <p class="text-center">Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+              <button class="font-semibold">Read moor</button>
+            </div>
+            <div class=" flex flex-col justify-center items-center p-6 shadow-md">
+              <div class="w-10 h-10 rounded-full flex justify-center items-center bg-red-500"><img src="assets/play-store.png " alt=""></div>
+              
+              <h4 class="font-semibold text-center">Easy to Use</h4>
+              <p class="text-center">Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+              <button class="font-semibold">Read moor</button>
+            </div>
+            
+        </div>
+      </section>
+        
+
+    </main>
+
+    <footer></footer>
+   
+    
+</body>
+
+</html>
